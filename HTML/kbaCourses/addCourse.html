@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Course</title>
+</head>
+<body bgcolor="pink">
+    <center>
+        <a href="home">Home</a>
+        <a href="courses">Courses</a>
+        <a href="contacts">contact details</a>
+        <a href="addCourses">Add Courses</a>
+        <a href="logout">Logout</a>
+    </center>
+    <h1 align="Center"><font color="green" face="Arial">Add Course</font></h1>
+    <center>
+        <form>
+            <table cellspacing="10">
+                <tr>
+                    <td>Course Name:</td>
+                    <td><input type="text" placeholder="Enter the course name" required></td>
+                </tr>
+                <tr>
+                    <td>Course Id:</td>
+                    <td><input type="number"placeholder="enter the course Id "required></td>
+                </tr>
+                <tr>
+                    <td>Course type:</td>
+                    <td>
+                        <select name="course type" required>
+                            <option value="course1" selected>self-paced</option>
+                            <option value="course2" >instructor-led</option>
+                            <option value="course3" >Course 3</option>
+                            <option value="course4" >Course 4</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Description:</td>
+                    <td><textarea rows="10" cols="20" placeholder="Enter the details"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Price:</td>
+                    <td>
+                        <select name="price" required>
+                            <option value="course1" selected>5000</option>
+                            <option value="course2" >10000</option>
+                            <option value="course3" >15000</option>
+                            <option value="course4" >7500</option>
+                        </select>
+                    </td>
+                </tr>
+              
+                <tr align="center">
+                    <td colspan="2"><input type="submit" value="Add Course">
+                </tr>
+    
+    
+    
+            </table>
+        </form>
+    </center>
+</body>
+</html>
